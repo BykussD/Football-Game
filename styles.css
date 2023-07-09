@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+::-webkit-scrollbar{
+    opacity: 0;
+}
+body{
+    font-family: 'Archivo', sans-serif;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #435B66;
+}
+.player-box{
+
+    font-size: larger;
+    min-width: 40%;
+}
+.shift{
+    height: 1px;
+    width: 100%;
+    margin: 25px 0;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    padding: 30px 20px;
+    background-color: #0F3460;
+    color: #fff;
+    border-radius: 30px;
+
+}
+.active{
+    display: none;
+}
+
+.current-info{
+    margin: 0 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.after-info{
+
+    display: flex;
+    gap: 20px;
+}
+
+.overall-increase, .goal, .assist{
+    flex: 2;
+}
+.btn{
+    width: 90%;
+
+}
+.toggler{
+    font-size: xx-small;
+}
+.wrapperV2{
+    padding: 30px 20px;
+    background-color: #0F3460;
+    color: #fff;
+    border-radius: 30px;
+    max-height: 400px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scroll-margin-left: 10px;
+}
+li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.isim{
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #435B66;
+    color: white;
+
+}
+
+.toggler{
+    cursor: pointer;
+}
+
+
+
+
+
+.score-table {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .score-table li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .score-table li:last-child {
+    border-bottom: none;
+  }
+  
+  .score-table li span {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .score-table li .team {
+    flex: 2;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .score-table li .rank {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .score-table li .played,
+  .score-table li .won,
+  .score-table li .drawn,
+  .score-table li .lost {
+    color:white;
+  }
